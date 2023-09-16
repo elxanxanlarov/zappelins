@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Lobster&family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root{
+--black-color:#424242;
+--blue-color:#3A0CA3;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+font-family:Montserrat ;
+}
+
+html{
+font-size: 100%;
+}
+
+.container{
+margin: 0 6.5rem;
+display: flex;
+align-items:center;
+
+
+}
+
+.btn{
+padding: .6rem 2rem;
+background-color: #47ACDF;
+color:#fff;
+display: flex;
+align-items:center;
+justify-content: center;
+gap: 1.8rem;
+border: none;
+cursor: pointer;
+
+
+}
+.btn:hover{
+transform: scale(1.1);
+}
+
+
+/* ! header codes start */
+.header__container{
+    display: flex;
+    justify-content: space-between;
+margin-top: 3.15rem;
+
+}
+.header__logo__img:hover{
+filter: drop-shadow(.1rem .1rem );
+}
+.header__logo__linkedin{
+display: flex;
+align-items: center;
+}
+.header__logo__linkedin__img:hover{
+filter:drop-shadow(.1rem .1rem .4rem ) ;
+}
+
+/* .header__nav{
+display: flex;
+} */
+.header__menu__img{
+display: none;
+}
+.header__links{
+display: flex;
+align-items:center;
+gap: 1.87rem;
+}
+.header__link__item{
+font-size: .775rem;
+color: var(--black-color);
+font-weight: 500;
+}
+.header__link__item:hover{
+text-shadow: .5rem 0 0.8rem;
+font-size: .975rem;
+}
+.header__link__item--bold{
+font-weight: 600;
+}
+
+
+
+
+/* ! header codes end */
+
+
+ /*! main start  */
+.main__container{
+margin-top: 8.86rem;
+display: flex;
+gap: 14rem;
+
+}
+.main__left{
+display: flex;
+flex-direction:column ;
+gap: 0.75rem;
+font-weight: 700;
+
+/* width: 42rem; */
+}
+.main__left__p3__btns{
+display: flex;
+flex-direction: column;
+gap: 5.4rem;
+margin-top: 2.5rem;
+}
+.main__left__p1{
+font-size: 3rem;
+color:#D05270;
+}
+.main__left__p2{
+font-size: 2.8rem;
+font-weight: 500;
+}
+.main__left__p3{
+font-size: .8rem;
+font-weight: 400;
+}
+.main__left__btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.main__linkedin__btn{
+background-color: #1275B1;
+}
+.main__medium__btn{
+    background-color: black;
+}
+
+.main__right{
+display: flex;
+align-items:center;
+justify-content: center;
+position: relative;
+}
+
+.main__img__back__container{
+    position: absolute;   
+    z-index: -1;
+    top: 2.75rem
+
+}
+.main__img__back{
+    width: 22.2rem;
+
+    
+}
+.main__img__front{
+width: 20rem;
+margin-bottom: 7rem;
+border:none;
+}
+
+ /*! main end  */
+
+
+
+ /* ! computer__img start */
+
+.computer__img{
+width: 75rem;
+
+
+}
+.computer__img__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+    align-items:center;    
+    justify-content: center;
+}
+
+ /* ! computer__img end */
+
+
+ /*! section__h1 start */
+.section__h1__container{
+display: flex;
+flex-direction: column;
+margin-top: 15rem;
+text-align: left;
+justify-content: start;
+text-align: left;
+}
+.section__h1{
+margin: 2rem;
+display: inline-block;
+text-align: left;
+width:100%;
+color:var(--blue-color);
+font-size: 2.625rem;
+}
+.section__h1__p{
+margin-bottom: 2rem;
+font-size: 1.2rem;
+}
+
+
+ /*! section__h1 end */
+
+
+
+
+
+
+ /*! section__h2 start*/
+ .section__h2__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    text-align: left;
+    justify-content: start;
+    text-align: left;
+    }
+    .section__h2{
+    margin: 2rem;
+    display: inline-block;
+    text-align: left;
+    width:100%;
+    color:var(--blue-color);
+    font-size: 2.25rem;
+    }
+    .section__h2__p{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    }
+ /*! section__h2 end */
+
+
+
+
+
+
+
+
+
+ /*! section__h3 start */
+
+ .section__h3__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    text-align: left;
+    justify-content: start;
+    text-align: left;
+    }
+    .section__h3{
+    margin: 2rem;
+    display: inline-block;
+    text-align: left;
+    width:100%;
+    color:var(--blue-color);
+    font-size: 1.5rem;
+    }
+    .section__h3__p{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    }
+ /*! section__h3 end */
+
+
+ .under__logo__text{
+    margin: 0 auto;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    }
+    .under__logo__img{
+        width: 2.20994rem;
+        height: 1.8rem; 
+    }
+    .under__text__img{
+    width: 15.91219rem;
+    height: 1.2645rem;
+    }
+    .under__logo__container{
+    width: 100%;
+    margin-top: 20rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    }
+    
+
+@media screen and (max-width:375px){
+    body , html{
+    width: 23.4375rem;
+    }
+.header__logo__img{
+width: 9.41213rem;
+}
+
+.header__logo__linkedin__img{
+width: 4.4375rem;
+}
+.header__links{
+display: none;
+
+
+}
+
+
+.header__menu__img{
+display: block;
+width: 1.125rem;
+cursor: pointer;
+}
+.container{
+margin: .4rem 1.5rem;
+/* width: 100%; */
+}
+.main__right{
+display: none;
+}
+.main__left__p3__btns{
+gap: 2rem;
+display: flex;
+flex-direction: column;
+margin-top: 1rem;
+}
+.main__left__p1{
+font-size: 1.25rem;
+margin-top: 4rem;
+}
+.main__left__p2{
+font-size: 1.25rem;
+}
+.main__left__p3{
+font-size: 0.75rem;
+}
+.btn{
+    width: 6.42869rem;
+    height: 2.62913rem;
+    font-size: 0.5rem;
+    display: flex;
+    gap: .9rem;
+}
+.main__left__btns{
+gap: .3rem;
+}
+.main__twitter__logo{
+width: 0.78875rem;
+
+}
+.main__linkedin__logo{
+width: 1.40219rem;
+
+}
+.main__medium__logo{
+width: 0.74494rem;
+
+}
+.computer__img__container{
+margin-top: 2rem;
+display: flex;
+justify-content: center;
+width: 100%;
+margin: 0 auto;
+
+}
+.computer__img{
+    width: 20.4375rem;
+    margin-top: 8rem;
+}
+.section__h1{
+font-size: 1.25rem;
+margin-top:5rem ;
+}
+.section__h1__p ,.section__h2__p , .section__h3__p{
+font-size: 0.875rem;
+
+}
+.section__h2{
+font-size: 1.125rem;
+margin-top: 5rem;
+}
+.section__h3{
+font-size: 1rem;
+margin-top: 5rem;
+}
+
+.under__logo__img{
+    width: 2rem;
+    height: 1.43094rem; 
+}
+.under__text__img{
+width: 11.91219rem;
+height: 1.43094rem;
+}
+}
